@@ -6,13 +6,13 @@ This Python script allows you to detect the Content Management System (CMS) used
 
 ## Features
 
-CMS Detection: The script identifies the CMS used by a target website by checking for common CMS-related patterns.
+- CMS Detection: The script identifies the CMS used by a target website by checking for common CMS-related patterns.
 
-Pattern Detection: It also detects and prints common patterns associated with the identified CMS.
+- Pattern Detection: It also detects and prints common patterns associated with the identified CMS.
 
-CMS Version Scraping: The script scrapes the CMS version information from the website's HTML.
+- CMS Version Scraping: The script scrapes the CMS version information from the website's HTML.
 
-Security Assessment: It checks for common security issues associated with CMSs, including weak password usage and exposed sensitive files.
+- Security Assessment: It checks for common security issues associated with CMSs, including weak password usage and exposed sensitive files.
 
 ## Prerequisites
 
@@ -55,8 +55,8 @@ Before using this script, ensure you have the following installed:
 
 ## Customization
 
-- You can customize the script by adding more CMS patterns to the 'cms_patterns dictionary'.
+- You can customize the script by adding more CMS patterns to the `cms_patterns dictionary`.
 
-- To perform additional security checks, modify the 'check_security_issues' function as needed.
+- To perform additional security checks, modify the `check_security_issues` function as needed.
 
-For scraping CMS version information, customize the 'scrape_cms_version' function based on how the CMS version is indicated in the HTML of the websites you are assessing.
+- For scraping CMS version information, customize the `scrape_cms_version` function based on how the CMS version is indicated in the HTML of the websites you are assessing.
